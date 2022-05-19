@@ -18,8 +18,8 @@ print()
 # A classe estudante é derivada da classe Pessoa.
 # Relação é: "Estudante" é uma "Pessoa"
 class Estudante(Pessoa): # o nome da classe base vem em parênteses
-    def __init__(self, name, curso):
-        super().__init__(name) # chama o construtor da classe base
+    def __init__(self, nome, curso):
+        super().__init__(nome) # chama o construtor da classe base
         self._curso = curso
 
     def falar_curso(self):
