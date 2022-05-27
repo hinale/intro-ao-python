@@ -44,4 +44,6 @@ The only thing I'll ever ask of you
 You've got to promise not to stop when I say when
 """
 
-
+palavras = everlong_foo_fighters.split()
+musica = {palavra for palavra in palavras}
+print(sorted(musica))
